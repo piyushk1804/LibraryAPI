@@ -1,0 +1,9 @@
+
+CREATE TABLE Members (
+	MemberId INT IDENTITY(1,1) PRIMARY KEY,
+	Name VARCHAR(255) NOT NULL,
+	Email VARCHAR(255),
+	Phone VARCHAR(20),
+	JoinDate DATE NOT NULL
+)
+
